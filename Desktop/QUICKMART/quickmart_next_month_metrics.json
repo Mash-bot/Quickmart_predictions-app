@@ -1,0 +1,18 @@
+{
+  "dataset": "QUICKMART_final_data.csv",
+  "forecast_month": "2026-03-01",
+  "forecast_month_label": "March 2026",
+  "grain": "Date x STORE_NAME_CLEAN x ITEM_NAME",
+  "train_rows": 573208,
+  "validation_rows": 143302,
+  "sales_validation_metrics": {
+    "rmse": 4573.088456989475,
+    "mae": 1228.8102955973864,
+    "r2": 0.807048834892446
+  },
+  "quantity_validation_metrics": {
+    "rmse": 30.127135801246133,
+    "mae": 7.401150161603649,
+    "r2": 0.7878749949796211
+  }
+}

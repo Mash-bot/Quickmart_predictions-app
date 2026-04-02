@@ -13,8 +13,6 @@ QUICKMART.pbix
 quickmart_xgb_sales_model.json
 quickmart_monthly_forecast_model.json
 quickmart_monthly_quantity_forecast_model.json
-quickmart_next_month_predictions.csv
-quickmart_next_month_metrics.json
 quickmart_monthly_forecast_predictions.csv
 quickmart_monthly_forecast_metrics.json
 quickmart_model_metrics.json

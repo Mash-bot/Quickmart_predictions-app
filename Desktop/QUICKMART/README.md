@@ -11,8 +11,9 @@
 
 ## What is included
 
-This repository is set up as a code-only app project.
-Large source datasets, trained model files, notebook files, and generated prediction CSVs are intentionally excluded from git.
+This repository is set up as a lightweight app project.
+Large source datasets, trained model files, and notebook files are intentionally excluded from git.
+The app-ready next-month forecast file is included so Streamlit Cloud can run without local training.
 
 To run the app, place the required Quickmart dataset file in the project folder:
 
@@ -27,9 +28,10 @@ To run the app, place the required Quickmart dataset file in the project folder:
 
 ## Expected workflow
 
-1. Add `QUICKMART_final_data.csv` to the project folder.
-2. Run `python generate_next_month_forecast.py`.
-3. Run `streamlit run streamlit_app.py`.
+1. For hosted usage, deploy directly with the included `quickmart_next_month_predictions.csv`.
+2. For local forecast refreshes, add `QUICKMART_final_data.csv` to the project folder.
+3. Run `python generate_next_month_forecast.py` when you want to regenerate the next-month predictions.
+4. Run `streamlit run streamlit_app.py`.
 
 ## Online deployment
 
