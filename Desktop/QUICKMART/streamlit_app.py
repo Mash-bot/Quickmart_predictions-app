@@ -6,8 +6,9 @@ import pandas as pd
 import streamlit as st
 
 
-PREDICTIONS_PATH = Path("quickmart_next_month_predictions.csv")
-METRICS_PATH = Path("quickmart_next_month_metrics.json")
+APP_DIR = Path(__file__).resolve().parent
+PREDICTIONS_PATH = APP_DIR / "quickmart_next_month_predictions.csv"
+METRICS_PATH = APP_DIR / "quickmart_next_month_metrics.json"
 
 
 @st.cache_data
