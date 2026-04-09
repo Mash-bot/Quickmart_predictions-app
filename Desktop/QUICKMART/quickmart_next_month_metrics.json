@@ -1,18 +1,18 @@
 {
   "dataset": "QUICKMART_final_data.csv",
-  "forecast_month": "2026-03-01",
-  "forecast_month_label": "March 2026",
+  "forecast_month": "2026-04-01",
+  "forecast_month_label": "April 2026",
   "grain": "Date x STORE_NAME_CLEAN x ITEM_NAME",
-  "train_rows": 573208,
-  "validation_rows": 143302,
+  "train_rows": 733590,
+  "validation_rows": 146718,
   "sales_validation_metrics": {
-    "rmse": 4573.088456989475,
-    "mae": 1228.8102955973864,
-    "r2": 0.807048834892446
+    "rmse": 11132.054234115003,
+    "mae": 949.9401210010999,
+    "r2": 0.5241341982143447
   },
   "quantity_validation_metrics": {
-    "rmse": 30.127135801246133,
-    "mae": 7.401150161603649,
-    "r2": 0.7878749949796211
+    "rmse": 32.843418671740174,
+    "mae": 4.610164000157216,
+    "r2": 0.8335542990363265
   }
 }
